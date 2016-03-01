@@ -1,0 +1,107 @@
+
+.imagen1{
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../image/large.jpg");
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0% 0%;
+	height: 700px;
+}
+.cajero {
+	background-color: white;
+	border-top: 6px solid #374DF4;
+	width: 600px;
+	height: 325px;
+	margin-left: 170px;
+	margin-top: 110px;
+}
+.mensajillo {
+	width: 25%;
+	margin-left: 26%;
+	background-color: #374DF4;
+	color: white;
+	margin-top: 1%;
+	border-radius: 10px;
+}
+h3 {
+	margin-left: 10%;
+	margin-top: 0;
+}
+hr {
+	color: black;
+	height: 8px;
+	width: 80%;
+}
+.nada {
+	width: 40%;
+	margin-left: 36%;
+	margin-top: 1%;
+}
+input{
+	width: 60%;
+	margin-left: 10%;
+}
+.texare{
+	width: 60%;
+	padding: 5%;
+	margin-top: 1%;
+	margin-left: 6.5%;
+}
+.email {
+	margin-left: 15%;
+}
+.mailcito {
+	margin-left: 18%;
+	margin-top: 1%;
+}
+form {
+	margin-left: 10%;
+}
+.parrafo {
+	margin-top: 6%;
+	margin-bottom: 5%;
+	margin-right: 28%;
+}
+.clase {
+    color: black;
+    text-decoration: underline;
+    padding-left: 1%;
+}
+.parrafo1 {
+	margin-top: 14%;
+}
+.color {
+	color: red;
+}
+.clase1 {
+	color: black;
+	text-decoration: underline;
+}
+@media screen and (max-width : 950px) {
+    .container{
+        width: 100%;
+    }
+    .box{
+        max-width:100%;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .container{
+        width: 100%;
+    }
+    section {
+    	width: 100%;
+    }
+    .col-12 {
+    	width: 100%;
+    }
+    .col-8 {
+    	width: 100%;
+    }
+    .col-4 {
+    	width: 96%;
+    }
+}
